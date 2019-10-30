@@ -86,5 +86,7 @@ window.addEventListener("load", () => {
 //10
 
 window.addEventListener("drag", () => {
-    alert(`ouch.`);
+    setTimeout(() => {
+        alert(`ouch.`);
+    }, 1);
 })
